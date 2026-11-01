@@ -1,0 +1,21 @@
+{
+  "info": {
+    "name": "简体中文",
+    "namespace": "chinese_translation",
+    "version": 3,
+    "author": "law",
+    "default_enabled": true
+  },
+  "dependencies": [
+    "chinese_font"
+  ],
+  "mixintos": {
+    "stonehearth/locales/supported_languages.json": "file(added_languages.json)",
+    "stonehearth_ace/locales/zh-CN.json": "file(locales/ace_zh_extra.json)"
+  },
+  "overrides": {
+    "stonehearth/locales/zh-CN.json": "file(locales/stonehearth_zh-CN.json)",
+    "rayyas_children/locales/zh-CN.json": "file(locales/rayyas_children_zh-CN.json)",
+    "northern_alliance/locales/zh-CN.json": "file(locales/northern_alliance_zh-CN.json)"
+  }
+}

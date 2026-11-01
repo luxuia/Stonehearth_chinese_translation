@@ -1,0 +1,15 @@
+{
+  "info": {
+    "name": "中文字体",
+    "namespace": "chinese_font",
+    "version": 3,
+    "author": "law",
+    "default_enabled": true
+  },
+  "overrides": {
+    "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf": "file(fonts/autourone/zh-CN.ttf)",
+    "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff": "file(fonts/autourone/zh-CN.woff)",
+    "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf": "file(fonts/grobold/zh-CN.ttf)",
+    "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff": "file(fonts/grobold/zh-CN.woff)"
+  }
+}
